@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* background-image:url('../files/untitled1copy.png'); */
+}
+
+h1 {
+  font-family: 'Sriracha', cursive;
+  font-weight: bolder;
+  line-height: 1.5;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 5%;
+}
+.GreenBackground{
+    background-color: #BFCCB5;
+    text-align: center;
+
+}
+.GreyBackground{
+  background-color: #7C96AB;
+  text-align: center;
+
+}
+
+/* navbar section */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* title section */
+.maintitle {
+
+  padding: 1% 10% 1% 10%;
+  /* ------------------------------------------------------------------ */
+}
+
+.row1 {
+  padding-top: 4.5rem;
+}
+
+.img1 {
+  width: 40%;
+  transform: rotate(30deg);
+  position: relative;
+  left: 30%;
+  margin-bottom: -100px;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+/* Features section */
+.features {
+
+  padding: 5% 5% 5% 5%;
+    /* ------------------------------------------------------------------ */
+  position: relative;
+}
+
+.icon-f {
+  color: #E7AB1E;
+}
+
+.icon-f:hover {
+  color: red;
+}
+
+.fh3 {
+  padding: 0 4%;
+  color: #CCCCCC;
+}
+
+/* testimonials section */
+
+
+.Testimonialsimage {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  padding-bottom: 3%;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+/* Press section */
+
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+.pricingsection {
+  padding: 100px;
+  /* ------------------------------------------------------------------ */
+
+}
+
+.pricing-columns {
+  padding: 3% 2%;
+  /* 3% from the top and bottom and 2% between the cards themselfs */
+}
+
+/* Call to Action */
+
+.ctah3 {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 15% 0;
+}
+
+.botton4 {
+  margin: 0 1% 5%;
+}
+
+/* footer */
+.footer {
+
+  font-weight: 900;
+  padding: 100px 100px;
+    /* ------------------------------------------------------------------ */
+}
+
+.footerIcon {
+  padding: 0 10px;
+}
+
+@media only screen and (max-width:995px) {
+  .img1 {
+    position: static;
+    transform: rotate(0);
+    margin-bottom: 1px;
+  }
+
+  .maintitle {
+    text-align: center;
+  }
+}
